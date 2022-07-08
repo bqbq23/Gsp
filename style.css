@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  align-items: center;
+  }
+
+  .logo {
+    margin-left: 100px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+
+  .navbar-links {
+    font-size: 18px;
+    color: #3882f6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    display: flex;
+    margin-right: 100px;
+    gap: 50px;
+    align-items: center;    
+
+  }
+
+  .navbar-links a:hover {
+    color: #f9faf8;
+  }
+
+  .hero-section {
+    background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
+  .hero-sub {
+    margin-left: 100px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+  }
+
+  .hero-pic {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-right: 300px;
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+
+  .citeste-btn {
+    font-size: 24px;
+    padding: 4px 16px;
+    color: #3882f6;
+    border-radius: 8px;
+  }
+
+  .hero-section p {
+    font-size: 18px;
+    max-width: 500px;
+  }
+
+  .random p {
+    max-width: 280px;
+    font-size: 16px;
+    line-height: 1.8;
+    color: #1f2937;
+    letter-spacing: 1px;    
+  }
+
+  .random {
+    display: flex;
+    justify-content: space-between;
+    gap: auto;
+    margin-left: 200px;
+    margin-right: 200px;
+  }
+
+  h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 70px;
+    color: #1f2937;
+  }
+
+  .quote {
+    background-color: #e5e7eb;
+    margin-top: 150px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .person {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+  }
+
+  .p-quote {
+    font-size: 36px;
+    max-width: 1600px;
+    font-style: italic;
+    color: #1f2937;
+  }
+
+  .footer {
+    background-color: #3882f6;
+    width: 1720px;
+    height: 300px;
+    font-size: 24px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-cookies {
+    padding: 10px 20px;
+    color: #e5e7eb;
+    background-color: #1f2937;
+    font-size: 16px;
+    
+  }
+
+  .btn-cookies:hover {
+    color: aqua;
+  }
+
+  .footer-p {
+    max-width: 900px;
+    padding: 50px 0 20px;
+    text-align: center;
+  }
+
+ 
